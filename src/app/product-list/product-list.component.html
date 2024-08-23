@@ -1,5 +1,5 @@
 <div class="ekart--product--container">
-  <img [src]="product.pImage" alt="iphone Image" width="100">
+  <!-- <img [src]="product.pImage" alt="iphone Image" width="100">
   <p>Name: {{ product.name }}</p>
   <p>Price: ${{ product.price }}</p>
   <p>Color: {{ product.color }}</p>
@@ -8,9 +8,12 @@
   <button (click)="decrementCartValue()" >-</button> 
   <span>{{ addToCart }}</span>
   <button (click)="incrementCartValue()" >+</button> 
-  <!-- Property Binding using square [] bracket-->
-  <!-- <input bind-value="name"> Other way of Property Binding is to use 'bind-' before attribute -->
-  <!-- <input (input)="onNameChange($event)"> In () braket -> event binding
-  <p>Name: {{ name }}</p> -->
-  <!-- Disabled, Hidden and Checked -->
+  Property Binding using square [] bracket
+  <input bind-value="name"> Other way of Property Binding is to use 'bind-' before attribute
+   <input (input)="onNameChange($event)"> In () braket -> event binding 
+  <p>Name: {{ name }}</p> 
+  Disabled, Hidden and Checked -->
+
+  <!-- Actual ecomm implementation -->
+   <app-search></app-search>
 </div>
